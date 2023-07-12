@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "datoscelexpress",
+  "private_key_id": "2b5aeefb2b514a3adca34df39559e5138e9531aa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDOkHeoPYRG+PFT\nyT8KDcKXTNy9AB8RVDQoZrkdrKoyca3q81w6BaznQEon6lviL3E4Fnzet3dgUKGu\nWh6dvsesPk75ELQ+sDsYohzakDzes1dLbye9Ad77zTcOxDCNBYu0kXAlkZHWzTGI\nNxX5/43ZkXVKrP5ugfzap6mhwOY1xDCnzc0H+xGxxqzTrALW1WTklZYa8CU+L4lN\nNfuQNGxOVmxD9lmCIaSPtnG1zwQHjVru8f4OQ1YngGWpeH4fmIE5AKb0df8X7S/E\n+em0PbEwz/zqk4HE5HolR0CKFFb+CzrkLgWNbRIgMkmb/3YPGR3HjFN/uNvoGcF/\nEbEUqH1/AgMBAAECggEAZ0PLvfy68ywioQtbi3AjlrXjKE02OtiIlqX75zzZfQxd\nsLZmpc8OiDEYoWnE84daJ3r+g+zeLfVBTsNYyO2GLrKbkmHqaeh6Mq9gk1dGRuML\nQffYuuGDkwgdfTFRQD7Ef8mxceabLPI5z+oR/3/lbx4LsABZ1e7/9GObJvUjYT7E\nVAjiF7zhKg02lbuuwjQKYsVAa3riuyiyw+orVHGeKJhoGg0ruo4jfNcJFpqCwb8S\n3gf77xjkoXbcQQ6+3XpbahzgILKuWTbQrPP/wBe71wBDoDVlk4b/IZltXdHB/77R\ntJqVaw1iidnEAZ/0uGxABoKwaUSvRctxrj8rrKIJkQKBgQDmCwozBIaRoxYDUKmz\nHSf4n//HMMLXvh3BxXNoaznvICJA70lI4mALcvoChNJcwnpzngOrm1XmE9DR+wpK\nsk9xHDvnjBt5GIgqMMgZrna1TJ+8QPOr85QxghPzSayjtS5Vi8F4PgKLTZUzrGot\nrcfREfbfiEN/72xmdpWGtMlbSQKBgQDl3znGX/IrKYL0dAsxFrV1Z1Hj4Yhaon5D\n62SY+/r9/s8v/fEhuPjZL0gcyn1zlIpYwScAu5KfEs6PdG3vkjAPWcyNOz8k1c8R\n8SQYFGiWVsCFC1mbgTACD0Bn1PNBGWVnxqxHwW1fwJ3GP7B8wJsUsd/hB83OWC+n\nLBPadSSKhwKBgADWw3fCKXd4f8kNT0Ee9xlaBAXG8L72q4ccYDpeQbzUgit4c+z3\nHmCMT8sYjufVsbqgNeU3UM3g/p71amkxU0bXUoSapzL+2uhEe0ZUs4wftmlqVzkm\nT0EK92WovB9wtrWLJ+53U20MoGGq3ExEWPkzNpJEHfLmfZ+2CP+Pwzg5AoGAPv+b\njON0siGRUz+OZaismH11cve3b+eCpUiY7Fh6pCu2SpfVAwH3qUYNBF72XLvD4qkk\n8E131ILJ+4TUMEknRL2+kqI/HvA97NPiqXrGYxVpc8z1hOm154qYgxxYgmncYcGQ\nK6Y2PHzEgLWpv7bliZlqGvkRjVCb1rv8wO1D03cCgYBelYVEwAlqs7dtqll/P2nG\nz7JHNHHpdn04gSAZ8bswZH2LiQrp54TsdmMkEqttuYrgREXDgPS2lfUMx2CdXSyl\nzUqW48jaJZvXe8GEz4u1ZjIqvUquVTa6N7x3+q8yVoT+mOogSG8u1MV2gfxYwk9Y\n/79S45plKL6WV5II2PXPRQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "datoscelexpress@datoscelexpress.iam.gserviceaccount.com",
+  "client_id": "114760415604594722785",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/datoscelexpress%40datoscelexpress.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

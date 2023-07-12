@@ -1,0 +1,927 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '9156CF92D1FDEEBA6735BB1B5579103D',
+    participant: undefined
+  },
+  messageTimestamp: 1689186259,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '4E99AB924A16658F486A2F663C9FB70F',
+    participant: undefined
+  },
+  messageTimestamp: 1689186268,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: 'B36275239F23907C5570FB46F0E769E0',
+    participant: undefined
+  },
+  messageTimestamp: 1689186272,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '33AC0C0F27F250B4A657E6B27712A454',
+    participant: undefined
+  },
+  messageTimestamp: 1689186276,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '435E7B49818AE8CD96942FE3DBAF8AE3',
+    participant: undefined
+  },
+  messageTimestamp: 1689186295,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '🫶🏻',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '🫶🏻',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '9B2765659B2D66A47B68D9CC0A34BD2C',
+    participant: undefined
+  },
+  messageTimestamp: 1689186320,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [],
+      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f1/m237/up-oil-image-52ea6127-16ca-4308-93f9-409f13c15f1d?ccb=9-4&oh=01_AdT4U2XhC8mVFdHwOk5k_MTft0_EQozs5RLnHx_tOKgRIw&oe=64D66FBE&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 71,
+      width: 82,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/o1/v/t62.7118-24/f1/m237/up-oil-image-52ea6127-16ca-4308-93f9-409f13c15f1d?ccb=9-4&oh=01_AdT4U2XhC8mVFdHwOk5k_MTft0_EQozs5RLnHx_tOKgRIw&oe=64D66FBE',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__76cdf867-113e-4f8f-a645-a69eda68af01',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: 'BDEE6C0DBF6C1EAFC86113BE4266C531',
+    participant: undefined
+  },
+  messageTimestamp: 1689186359,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Sad',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Sad',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: 'C002D53F163EED80CBD09F815446D3E2',
+    participant: undefined
+  },
+  messageTimestamp: 1689186367,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '816875A15F56CB63398DC71A797078E3',
+    participant: undefined
+  },
+  messageTimestamp: 1689186374,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '04D617BB625015E754E5D4257810938E',
+    participant: undefined
+  },
+  messageTimestamp: 1689186380,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '23DC328124A0C797B7977226BEA0DFEF',
+    participant: undefined
+  },
+  messageTimestamp: 1689186393,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f1/m234/up-oil-image-4df78a72-a430-4ed4-8093-acfc8c150c75?ccb=9-4&oh=01_AdRlJM-Fje0D0E9gdC7sY2coG08xDaOM464VrFAuN911Ug&oe=64D66D90&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1600,
+      width: 1200,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/o1/v/t62.7118-24/f1/m234/up-oil-image-4df78a72-a430-4ed4-8093-acfc8c150c75?ccb=9-4&oh=01_AdRlJM-Fje0D0E9gdC7sY2coG08xDaOM464VrFAuN911Ug&oe=64D66D90',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__6a5a288c-9968-4045-bb2a-3fd954b48387',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '83B858B2EC8EFCFFBDC184DB331E2D02',
+    participant: undefined
+  },
+  messageTimestamp: 1689186401,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Chiara dojman',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Chiara dojman',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '8828590DC212212BAFC1307661FE43C2',
+    participant: undefined
+  },
+  messageTimestamp: 1689186408,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491161910017@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB08AF140B5BA24B00C50',
+    participant: undefined
+  },
+  messageTimestamp: 1689186411,
+  pushName: 'Miguel Bronzovic',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://web.whatsapp.net',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      directPath: '/v/t62.15575-24/21392025_203075786049925_4511581513896208539_n.enc?ccb=11-4&oh=01_AdSlbQpY0vCP2knbr587BqEbcBWOJmCniwDLR39dmUyE4g&oe=64D67BCA',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      isAnimated: false,
+      contextInfo: [ContextInfo],
+      stickerSentTs: [Long]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '5491161910017'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '7AD80B5A98D586E072E5BAFE0611138D',
+    participant: undefined
+  },
+  messageTimestamp: 1689186414,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Galaxy J5',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Galaxy J5',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491161910017@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB07E92785DFF4202D177',
+    participant: undefined
+  },
+  messageTimestamp: 1689186416,
+  pushName: 'Miguel Bronzovic',
+  broadcast: false,
+  message: Message {
+    stickerMessage: StickerMessage {
+      url: 'https://web.whatsapp.net',
+      fileSha256: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      mediaKey: [Uint8Array],
+      mimetype: 'image/webp',
+      directPath: '/v/t62.15575-24/31862978_314691794244193_2364986536199110178_n.enc?ccb=11-4&oh=01_AdSyt2INxnWhVW42edowExvV77P487X7aatoYk9Sn5d4Sg&oe=64D656EC',
+      fileLength: [Long],
+      mediaKeyTimestamp: [Long],
+      firstFrameLength: 7506,
+      firstFrameSidecar: [Uint8Array],
+      isAnimated: true,
+      contextInfo: [ContextInfo],
+      stickerSentTs: [Long]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '5491161910017'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '2F3321A411EE70494176071578E54C69',
+    participant: undefined
+  },
+  messageTimestamp: 1689186421,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '520ABDB645ED1AFCD9E9EE7ABCA43C01',
+    participant: undefined
+  },
+  messageTimestamp: 1689186440,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jajajjs sad',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jajajjs sad',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '162EE04302911B7330FB5878EDB768E0',
+    participant: undefined
+  },
+  messageTimestamp: 1689186446,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Y los otros caminos?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Y los otros caminos?',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '7B66401573C6308360E156926F3BD780',
+    participant: undefined
+  },
+  messageTimestamp: 1689186448,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Van bien',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Van bien',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: 'BE15739EF7CF71BDEB4455D1358A0AF8',
+    participant: undefined
+  },
+  messageTimestamp: 1689186449,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: '?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '?',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: 'C2E663DCA9841E30762C05E871C8071E',
+    participant: undefined
+  },
+  messageTimestamp: 1689186465,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Si querws lo hacemos',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si querws lo hacemos',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491122932928@s.whatsapp.net',
+    fromMe: false,
+    id: '729D9099F3FBF1B1F8648B2524E577E0',
+    participant: undefined
+  },
+  messageTimestamp: 1689186478,
+  pushName: 'Chiari 🌸✨',
+  broadcast: false,
+  message: Message {
+    conversation: 'Okii',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Okii',
+  from: '5491122932928'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491131113766@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF5DC79B60C275637CE',
+    participant: undefined
+  },
+  messageTimestamp: 1689186511,
+  pushName: 'lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Te pase otro mail',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Te pase otro mail',
+  from: '5491131113766'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491131113766@s.whatsapp.net',
+    fromMe: false,
+    id: '3A5759FD43C3BF6E54F1',
+    participant: undefined
+  },
+  messageTimestamp: 1689186518,
+  pushName: 'lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Eso era para meta for de el opera',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Eso era para meta for de el opera',
+  from: '5491131113766'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491131113766@s.whatsapp.net',
+    fromMe: false,
+    id: '3AD58299671A95E25BEA',
+    participant: undefined
+  },
+  messageTimestamp: 1689186526,
+  pushName: 'lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Estás escribiendo el sheet',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Estás escribiendo el sheet',
+  from: '5491131113766'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491131113766@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC2D27E3F26E1AC7BF1',
+    participant: undefined
+  },
+  messageTimestamp: 1689186534,
+  pushName: 'lucas',
+  broadcast: false,
+  message: Message {
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/v/t62.7118-24/11295280_700463338584383_1967267714186476039_n.enc?ccb=11-4&oh=01_AdSlOaMNslHVg3Q4s9bq-1DfBAsg--P_08ZFpOHG0FKv2A&oe=64D65A23&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 900,
+      width: 1600,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7118-24/11295280_700463338584383_1967267714186476039_n.enc?ccb=11-4&oh=01_AdSlOaMNslHVg3Q4s9bq-1DfBAsg--P_08ZFpOHG0FKv2A&oe=64D65A23',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      firstScanSidecar: [Uint8Array],
+      firstScanLength: 13094,
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_media__b2ff34b9-0e42-4c96-b224-71692bab44fb',
+  from: '5491131113766'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: '80520E7EF9C665D93D4DEEA79A8A5AAA',
+    participant: undefined
+  },
+  messageTimestamp: 1689186536,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/11889388_824393405522804_2299084240282045038_n.enc?ccb=11-4&oh=01_AdSMFZVagHRtWBwBUbx90HsDNQxSvNkS5zd5A-FGMdnJFA&oe=64D658C9&mms3=true',
+      mimetype: 'application/pdf',
+      title: 'CERTIFICADO DE MOVIMIENTOS MIGRATORIOS',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 4,
+      mediaKey: [Uint8Array],
+      fileName: 'CERTIFICADO DE MOVIMIENTOS MIGRATORIOS.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/11889388_824393405522804_2299084240282045038_n.enc?ccb=11-4&oh=01_AdSMFZVagHRtWBwBUbx90HsDNQxSvNkS5zd5A-FGMdnJFA&oe=64D658C9&_nc_hot=1689186534',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/35099148_261279699985143_7077909920487449950_n.enc?ccb=11-4&oh=01_AdQ5ZFnORD9ZLyHmrzflm8IXdrcJS5uYCUXSy6h4tUj09g&oe=64D678AC',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 72,
+      thumbnailWidth: 56
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_document__767778bf-bc98-4eca-b7df-5f35c7eb1a2e',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: '35F6332975CD2CF4BC1FDC413E08387E',
+    participant: undefined
+  },
+  messageTimestamp: 1689186536,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/55665915_658565645803439_7800124998602946597_n.enc?ccb=11-4&oh=01_AdSzTEehAh8CA04CphPzWLVMo-Lr00SjMCQz7Auzi5JnEQ&oe=64D654CA&mms3=true',
+      mimetype: 'application/pdf',
+      title: 'AUTORIZACION',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 4,
+      mediaKey: [Uint8Array],
+      fileName: 'AUTORIZACION.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/55665915_658565645803439_7800124998602946597_n.enc?ccb=11-4&oh=01_AdSzTEehAh8CA04CphPzWLVMo-Lr00SjMCQz7Auzi5JnEQ&oe=64D654CA&_nc_hot=1689186534',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/40170695_517818900490424_1174270812487713599_n.enc?ccb=11-4&oh=01_AdRS23Fg_iRhBX73S_tmDCBm5xFFPC0uV0t7ZQKlr8lfcA&oe=64D65ABD',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 72,
+      thumbnailWidth: 56
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_document__2f7694ac-8423-4e25-b809-86c022efc635',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: 'FF3691DB091343B8B5EDF5EC0EF0BFAC',
+    participant: undefined
+  },
+  messageTimestamp: 1689186536,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/34939424_247651278049897_7730910802905294802_n.enc?ccb=11-4&oh=01_AdTBsP2Bew6I44ivgSrgfwprM56refnjusMU0Jq-Zziqtg&oe=64D6700F&mms3=true',
+      mimetype: 'application/pdf',
+      title: 'Declaración Jurada',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 4,
+      mediaKey: [Uint8Array],
+      fileName: 'Declaración Jurada.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/34939424_247651278049897_7730910802905294802_n.enc?ccb=11-4&oh=01_AdTBsP2Bew6I44ivgSrgfwprM56refnjusMU0Jq-Zziqtg&oe=64D6700F&_nc_hot=1689186534',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/35080144_113386015151151_2711214496127269666_n.enc?ccb=11-4&oh=01_AdRxxUgtkZNrF0pw9ZF-y-HOgGrc7zuMg8_bhqlpJ2mTLA&oe=64D652CC',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 72,
+      thumbnailWidth: 56
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_document__d5fdaf12-5df1-4ca3-a1ce-fadd87f44b03',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: '68A99FDF497B8D74D83CA862E6B82733',
+    participant: undefined
+  },
+  messageTimestamp: 1689186536,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/26452634_812703463620981_7553893865670173023_n.enc?ccb=11-4&oh=01_AdS-uOnivCkmHHhGXd3uKNlh06ZsKFHbV2uF7x_D8cVcfg&oe=64D65CD7&mms3=true',
+      mimetype: 'application/pdf',
+      title: '26',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 5,
+      mediaKey: [Uint8Array],
+      fileName: '26.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/26452634_812703463620981_7553893865670173023_n.enc?ccb=11-4&oh=01_AdS-uOnivCkmHHhGXd3uKNlh06ZsKFHbV2uF7x_D8cVcfg&oe=64D65CD7&_nc_hot=1689186534',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/31342910_991194758970528_6019795710102096956_n.enc?ccb=11-4&oh=01_AdQKkYNdwXiL8CM3xtzpqGMxZ1zr7n6J1uhUpCGnbmsBWQ&oe=64D65CF9',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 72,
+      thumbnailWidth: 56
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_document__b47a77e1-16ad-4ee3-8f71-d05af0382792',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: '0DAFE81F5F6C1AF3289C95BD262A95A7',
+    participant: undefined
+  },
+  messageTimestamp: 1689186537,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/30556908_308486611531103_6505944797959036907_n.enc?ccb=11-4&oh=01_AdSXuO7pA_j7l-Aa_al6ezGHMWEZU3F5pYT7C8YoyvjovA&oe=64D66B55&mms3=true',
+      mimetype: 'application/pdf',
+      title: '26',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 5,
+      mediaKey: [Uint8Array],
+      fileName: '26.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/30556908_308486611531103_6505944797959036907_n.enc?ccb=11-4&oh=01_AdSXuO7pA_j7l-Aa_al6ezGHMWEZU3F5pYT7C8YoyvjovA&oe=64D66B55&_nc_hot=1689186534',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/19919062_229476140008704_5092710695652602028_n.enc?ccb=11-4&oh=01_AdSjoDj32UuLUuRu9aONPr_lbgtWdLDJFLVkQgjMdYn36A&oe=64D67C55',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 72,
+      thumbnailWidth: 56
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_document__684fc3d7-b091-42d6-a3c7-06b4b1e66a12',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: '192842F4EF65684887E055BAC62A6949',
+    participant: undefined
+  },
+  messageTimestamp: 1689186537,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/35111963_791066296017640_4196677615338869516_n.enc?ccb=11-4&oh=01_AdTqz1Yv3tbG0GgyP2PZ7xXnqDaTv88eIGPUouMzTQkWyQ&oe=64D65440&mms3=true',
+      mimetype: 'application/pdf',
+      title: '30.946.506',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 4,
+      mediaKey: [Uint8Array],
+      fileName: '30.946.506.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/35111963_791066296017640_4196677615338869516_n.enc?ccb=11-4&oh=01_AdTqz1Yv3tbG0GgyP2PZ7xXnqDaTv88eIGPUouMzTQkWyQ&oe=64D65440&_nc_hot=1689186534',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/19253443_834390827951289_9221757070116989661_n.enc?ccb=11-4&oh=01_AdRCkcoMXPjYaZguZhzC7D8-x83eEnUIpaU6Cxj58Zxb_A&oe=64D6577D',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 72,
+      thumbnailWidth: 56
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_document__04953a86-da31-418a-ac41-f0f7df69b17b',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: '61D00584121D7C9E4186B317A6EF887A',
+    participant: undefined
+  },
+  messageTimestamp: 1689186537,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/40815315_184086157977889_2112854565353872688_n.enc?ccb=11-4&oh=01_AdQjeqD9Msq39q9wHt35zdFTr352pNDFRmyy5H2FwNNvsg&oe=64D646A8&mms3=true',
+      mimetype: 'application/pdf',
+      title: 'UNIONE EUROPEA',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 16,
+      mediaKey: [Uint8Array],
+      fileName: 'UNIONE EUROPEA.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/40815315_184086157977889_2112854565353872688_n.enc?ccb=11-4&oh=01_AdQjeqD9Msq39q9wHt35zdFTr352pNDFRmyy5H2FwNNvsg&oe=64D646A8&_nc_hot=1689186534',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/18899167_252371390878618_2034252654656014857_n.enc?ccb=11-4&oh=01_AdTgjM3rnch0-0Pe4RoYEKFQzlp8iOkDYavZ2jEfIkPuvw&oe=64D657E2',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 72,
+      thumbnailWidth: 56
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '_event_document__7b76a891-88c2-4d1b-a8b0-e26916137c96',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491167825005@s.whatsapp.net',
+    fromMe: false,
+    id: 'A41598E662B04DC0C644863D25EE8438',
+    participant: undefined
+  },
+  messageTimestamp: 1689186538,
+  pushName: 'Sandra',
+  broadcast: false,
+  message: Message {
+    conversation: 'Masola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Masola',
+  from: '5491167825005'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491131113766@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0674CB4A1C9EF9E242',
+    participant: undefined
+  },
+  messageTimestamp: 1689186540,
+  pushName: 'lucas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Dame 5 y te paso',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Dame 5 y te paso',
+  from: '5491131113766'
+}
