@@ -266,7 +266,7 @@ const flowFoto = addKeyword(['1', '2', '3'])
   .addAnswer(
     '📷 Este es un ejemplo de como se tendría que ver',
     {
-      media: './CelularConPAntallaBLanca.jpeg',
+      media: './CelularConPantallaBLanca.jpeg',
     },
     null,
     [flowCliente]
