@@ -392,7 +392,7 @@ const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola'])
   })
 
   .addAnswer(
-    'Hola! 👋 Soy el chatbot de CelExpress 📱\nTu lugar de confianza para resolver los problemas de tu celular\n\n📍 Nos ubicamos en Blanco Encalada 2245, Local 13, Galería Las Brujas, La Horqueta, San Isidro, CP 1618\n\n🕚 Nuestro horario de atención es de 10 a 22hs, de Lunes a Sábado\n\n😊💼¿En qué tipo de consulta puedo ayudarte hoy? \n\n¡Estamos aquí para asistirte!'
+    'Hola! 👋 Soy el chatbot de CelExpress 📱\nTu lugar de confianza para resolver los problemas de tu celular\n\n📍 Nos ubicamos en Blanco Encalada 2245, Local 13, Galería Las Brujas, La Horqueta, San Isidro, CP 1618\n\n🕚 Nuestro horario de atención es de 10 a 20hs, de Lunes a Sábado\n\n😊💼¿En qué tipo de consulta puedo ayudarte hoy? \n\n¡Estamos aquí para asistirte!'
   )
 
   .addAnswer(
