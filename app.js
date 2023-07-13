@@ -36,9 +36,9 @@ const flowModelo = addKeyword([
   '6',
 ])
   // Funcion para apagar el bot
-  .addAction(async () => {
-    STATE = false;
-  })
+  // .addAction(async () => {
+  //   STATE = false;
+  // })
 
   .addAnswer(
     'Entiendo, y qué modelo es? 🤔\n\n📝 Ejemplo: *Galaxy J7*',
@@ -174,10 +174,10 @@ const flowOrdenN = addKeyword([
   '8',
   '9',
 ])
-  // Funcion para apagar el bot
-  .addAction(async () => {
-    STATE = false;
-  })
+  // // Funcion para apagar el bot
+  // .addAction(async () => {
+  //   STATE = false;
+  // })
   .addAnswer(
     'Qué número de orden figura en tu boleta? 📝👤',
 
@@ -210,9 +210,9 @@ const flowCliente3 = addKeyword('3').addAnswer(
 
 const flowGremio = addKeyword(['a', 'e', 'i', 'o', 'u'])
   // Funcion para apagar el bot
-  .addAction(async () => {
-    STATE = false;
-  })
+  // .addAction(async () => {
+  //   STATE = false;
+  // })
   .addAnswer(
     'Contame un poco como te puedo ayudar con respecto al gremio o temas relacionados 📝👤',
 
@@ -266,7 +266,8 @@ const flowFoto = addKeyword(['1', '2', '3'])
   .addAnswer(
     '📷 Este es un ejemplo de como se tendría que ver',
     {
-      media: 'https://raw.githubusercontent.com/aptimia/wpp-chatbot001/main/CelularConPantallaBlanca.jpeg',
+      media:
+        'https://raw.githubusercontent.com/aptimia/wpp-chatbot001/main/CelularConPantallaBlanca.jpeg',
     },
     null,
     [flowCliente]
@@ -309,9 +310,9 @@ const flowPantalla = addKeyword(['Pantalla', '1']).addAnswer(
 
 const flowCursos = addKeyword('4')
   // Funcion para apagar el bot
-  .addAction(async () => {
-    STATE = false;
-  })
+  // .addAction(async () => {
+  //   STATE = false;
+  // })
 
   .addAnswer(
     '📚 ¡Tenemos varios cursos y capacitaciones disponibles para empresas 💼 ! Tanto en formato online como presencial.\n\nSe acerca la fecha de los próximos congresos en México 🇲🇽 y Uruguay 🇺🇾! 🎓🌟'
@@ -378,21 +379,40 @@ const flowTelefono = addKeyword(['Problemas con mi telefono', '1']).addAnswer(
 
 // Funcion axuliar confidencial
 
-const flowEncender = addKeyword('excalibur')
-  .addAction(async () => {
-    STATE = true;
-  })
-  .addAnswer('Bot encendido...');
+// const flowEncender = addKeyword('excalibur')
+//   .addAction(async () => {
+//     STATE = true;
+//   })
+//   .addAnswer('Bot encendido...');
 
-const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola'])
+const flowPrincipal = addKeyword([
+  /*EVENTS.WELCOME, */ 'hola',
+  'Hola',
+  'Buenas',
+  'buenas',
+  'que tal',
+  'Que tal',
+  'como te va',
+  'como te va',
+  'como va',
+  'como va',
+  'buenos',
+  'Buenos',
+  'encantado',
+  'encantada',
+  'Encantado',
+  'Encantada',
+  'saludos',
+  'Saludos',
+])
   // Funcion para apagar el bot
 
-  .addAction(async (_, { endFlow }) => {
-    if (!STATE) return endFlow();
-  })
+  // .addAction(async (_, { endFlow }) => {
+  //   if (!STATE) return endFlow();
+  // })
 
   .addAnswer(
-    'Hola! 👋 Soy el chatbot de CelExpress 📱\nTu lugar de confianza para resolver los problemas de tu celular\n\n📍 Nos ubicamos en Blanco Encalada 2245, Local 13, Galería Las Brujas, La Horqueta, San Isidro, CP 1618\n\n🕚 Nuestro horario de atención es de 10 a 20hs, de Lunes a Sábado\n\n😊💼¿En qué tipo de consulta puedo ayudarte hoy? \n\n¡Estamos aquí para asistirte!'
+    'Hola! 👋 Soy el chatbot de CelExpress 📱\nTu lugar de confianza para resolver los problemas de tu celular\n\n📍 Nos ubicamos en Blanco Encalada 2245, Local 13, Galería Las Brujas, La Horqueta, San Isidro, CP 1618\n\n🕚 Nuestro horario de atención es de 10 a 22hs, de Lunes a Sábado\n\n😊💼¿En qué tipo de consulta puedo ayudarte hoy? \n\n¡Estamos aquí para asistirte!'
   )
 
   .addAnswer(
@@ -413,6 +433,10 @@ const flowPrincipal = addKeyword([EVENTS.WELCOME, 'hola'])
     [flowTelefono, flowCliente2, flowCliente3, flowCursos]
   );
 
+setInterval(() => {
+  STATE = true;
+}, 3 * 60 * 1000);
+
 const main = async () => {
   //   // Nos conectamos a Mysql
   //   const adapterDB = new MySQLAdapter({
@@ -425,7 +449,7 @@ const main = async () => {
 
   const adapterDB = new MockAdapter();
 
-  const adapterFlow = createFlow([flowPrincipal, flowEncender]);
+  const adapterFlow = createFlow([flowPrincipal /*, flowEncender*/]);
   const adapterProvider = createProvider(
     BaileysProvider /*, {
     accountSid: process.env.ACC_SID,
