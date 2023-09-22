@@ -26,14 +26,17 @@ function addBlackList(phone) {
   // Cargar el contenido actual del archivo
   try {
     const blacklistData = JSON.parse(fs.readFileSync('blackList.json', 'utf8'));
-  
+
     // Verificar si el número ya está en la lista
-    if (blacklistData.blacklist.includes(phone)) {
+    if (numberInBlackList(phone)) {
       console.log(`El número ${phone} ya está en la lista negra.`);
-    } else {
-      // Guardada en el archivo
-      fs.writeFileSync('blackList.json', JSON.stringify(phone));
-      console.log(`El número ${phone} ha sido agregado a la lista negra.`);
+    } else if (Array.isArray(blacklistData.blacklist)) {
+      //Añade nro al array del json
+      blacklistData.blacklist.push(phone);
+      //Convierte objeto a formato json
+      const updatedJsonData = JSON.stringify(blacklistData, null, 2);
+      //Lo escribe en el file
+      fs.writeFileSync('blackList.json', updatedJsonData, 'utf-8');
     }
   } catch (error) {
     // Manejar errores en la lectura o el procesamiento del archivo
@@ -41,13 +44,13 @@ function addBlackList(phone) {
   }
 }
 
-function numberInBlackList(phoneNumber) {
+function numberInBlackList(phone) {
   try {
     // Cargar el contenido del archivo blackList.json
     const blacklistData = JSON.parse(fs.readFileSync('blackList.json', 'utf8'));
 
     // Verificar si el número de teléfono está en la lista negra
-    if (blacklistData.blacklist.includes(phoneNumber)) {
+    if (blacklistData.blacklist.includes(phone)) {
       return true; // El número de teléfono está en la lista negra
     } else {
       return false; // El número de teléfono no está en la lista negra
