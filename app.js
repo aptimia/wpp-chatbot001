@@ -24,16 +24,15 @@ let STATE = true; // Variable de estado del bot
 
 function addBlackList(phone) {
   // Cargar el contenido actual del archivo
-  let content = [];
   try {
-    content = JSON.parse(fs.readFileSync('blackList.json', 'utf8'));
+    const content = JSON.parse(fs.readFileSync('blackList.json', 'utf8'));
   } catch (error) {
     // Si el archivo no existe o no se puede parsear, inicializar la lista
     content = [];
   }
 
   // Verificar si el número ya está en la lista
-  if (content.blacklist.includes(phone) || content.includes(phone)) {
+  if (content.blacklist.includes(phone)) {
     console.log(`El número ${phone} ya está en la lista negra.`);
   } else {
     // Agregar el número a la lista
@@ -52,8 +51,7 @@ function numberInBlackList(phoneNumber) {
 
     // Verificar si el número de teléfono está en la lista negra
     if (
-      blacklistData.blacklist.includes(phoneNumber) ||
-      blacklistData.includes(phoneNumber)
+      blacklistData.blacklist.includes(phoneNumber)
     ) {
       return true; // El número de teléfono está en la lista negra
     } else {
