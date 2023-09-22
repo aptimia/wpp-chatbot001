@@ -22,6 +22,50 @@ const MockAdapter = require('@bot-whatsapp/database/mock');
 let STATUS = {}; // Variable para GoogleSheets
 let STATE = true; // Variable de estado del bot
 
+function addBlackList(phone) {
+  // Cargar el contenido actual del archivo
+  let content = [];
+  try {
+    content = JSON.parse(fs.readFileSync('blackList.json', 'utf8'));
+  } catch (error) {
+    // Si el archivo no existe o no se puede parsear, inicializar la lista
+    content = [];
+  }
+
+  // Verificar si el número ya está en la lista
+  if (content.blacklist.includes(phone) || content.includes(phone)) {
+    console.log(`El número ${phone} ya está en la lista negra.`);
+  } else {
+    // Agregar el número a la lista
+    content.push(phone);
+
+    // Guardada en el archivo
+    fs.writeFileSync('blackList.json', JSON.stringify(content, null, 2));
+    console.log(`El número ${phone} ha sido agregado a la lista negra.`);
+  }
+}
+
+function numberInBlackList(phoneNumber) {
+  try {
+    // Cargar el contenido del archivo blackList.json
+    const blacklistData = JSON.parse(fs.readFileSync('blackList.json', 'utf8'));
+
+    // Verificar si el número de teléfono está en la lista negra
+    if (
+      blacklistData.blacklist.includes(phoneNumber) ||
+      blacklistData.includes(phoneNumber)
+    ) {
+      return true; // El número de teléfono está en la lista negra
+    } else {
+      return false; // El número de teléfono no está en la lista negra
+    }
+  } catch (error) {
+    // Manejar errores en la lectura o el procesamiento del archivo
+    console.error('Error al verificar la lista negra:', error);
+    return false; // Tratamos cualquier error como si el número no estuviera en la lista negra
+  }
+}
+
 const flowModelo = addKeyword([
   'a',
   'e',
@@ -49,6 +93,8 @@ const flowModelo = addKeyword([
       modelo = STATUS[telefono] = { ...STATUS[telefono], modelo: ctx.body };
 
       ingresarDatos();
+      addBlackList(telefono); //anadir numero a blacklist
+
       async function ingresarDatos() {
         console.log(STATUS[telefono].modelo);
         let rows = [
@@ -414,6 +460,11 @@ const flowPrincipal = addKeyword([
   'saludos',
   'Saludos',
 ])
+  .addAction(async (_, { endFlow }) => {
+    if (numberInBlackList(ctx.from)) {
+      return endFlow();
+    }
+  })
   // Funcion para apagar el bot
 
   // .addAction(async (_, { endFlow }) => {
@@ -447,25 +498,10 @@ setInterval(() => {
 }, 3 * 60 * 1000);
 
 const main = async () => {
-  //   // Nos conectamos a Mysql
-  //   const adapterDB = new MySQLAdapter({
-  //       host: '127.0.0.1',
-  //       user: 'USUARIO',
-  //       database: 'DB',
-  //       password: 'PASSWORD',
-  //       port: '3306',
-  //   })
-
   const adapterDB = new MockAdapter();
 
   const adapterFlow = createFlow([flowPrincipal /*, flowEncender*/]);
-  const adapterProvider = createProvider(
-    BaileysProvider /*, {
-    accountSid: process.env.ACC_SID,
-    authToken: process.env.ACC_TOKEN,
-    vendorNumber: process.env.ACC_VENDOR,
-  }*/
-  );
+  const adapterProvider = createProvider(BaileysProvider);
 
   createBot({
     flow: adapterFlow,
