@@ -31,9 +31,6 @@ function addBlackList(phone) {
     if (blacklistData.blacklist.includes(phone)) {
       console.log(`El número ${phone} ya está en la lista negra.`);
     } else {
-      // Agregar el número a la lista
-      blacklistData.push(phone);
-  
       // Guardada en el archivo
       fs.writeFileSync('blackList.json', JSON.stringify(blacklistData.blacklist, null, 2));
       console.log(`El número ${phone} ha sido agregado a la lista negra.`);
