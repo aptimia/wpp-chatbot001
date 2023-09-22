@@ -460,7 +460,7 @@ const flowPrincipal = addKeyword([
   'saludos',
   'Saludos',
 ])
-  .addAction(async (_, { endFlow }) => {
+  .addAction(async (ctx, { endFlow }) => {
     if (numberInBlackList(ctx.from)) {
       return endFlow();
     }
