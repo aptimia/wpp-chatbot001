@@ -32,12 +32,12 @@ function addBlackList(phone) {
       console.log(`El número ${phone} ya está en la lista negra.`);
     } else {
       // Guardada en el archivo
-      fs.writeFileSync('blackList.json', JSON.stringify(blacklistData.blacklist, null, 2));
+      fs.writeFileSync('blackList.json', JSON.stringify(phone));
       console.log(`El número ${phone} ha sido agregado a la lista negra.`);
     }
   } catch (error) {
     // Manejar errores en la lectura o el procesamiento del archivo
-    console.error('Error al verificar la lista negra:', error);
+    console.error('Error al agregar a la lista negra:', error);
   }
 }
 
