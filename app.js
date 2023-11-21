@@ -89,7 +89,7 @@ const flowModelo = addKeyword([
       modelo = STATUS[telefono] = { ...STATUS[telefono], modelo: ctx.body };
 
       ingresarDatos();
-      addBlackList(telefono); //anadir numero a blacklist
+      //addBlackList(telefono); //anadir numero a blacklist
 
       async function ingresarDatos() {
         console.log(STATUS[telefono].modelo);
@@ -456,11 +456,11 @@ const flowPrincipal = addKeyword([
   'saludos',
   'Saludos',
 ])
-  .addAction(async (ctx, { endFlow }) => {
-    if (numberInBlackList(ctx.from)) {
-      return endFlow();
-    }
-  })
+  //.addAction(async (ctx, { endFlow }) => {
+    //if (numberInBlackList(ctx.from)) {
+     // return endFlow();
+    //}
+  //})
   // Funcion para apagar el bot
 
   // .addAction(async (_, { endFlow }) => {
